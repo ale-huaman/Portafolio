@@ -1,5 +1,11 @@
-/*Header*/
+/*Body*/
 
+/*Fin Body*/
+
+/*Header*/
+#header-init{
+    margin-left: 2rem;
+}
 
 /*Fin Header*/
 
@@ -8,9 +14,9 @@ h1{ /*titulo "Portafolio"*/
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    color: #dd5547;
+    color: oklch(0.1 0.1 100%);
     font-size: 15ex;
+    margin-top: 10rem;
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -18,9 +24,19 @@ h1{ /*titulo "Portafolio"*/
   font-variation-settings: "wdth" 100;
 }
 
+#abt{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
 /*Fin Main*/
 
 /*Footer*/
-
+#footer-init{
+  float:inline-end;
+  margin-right: 2rem;
+}
 
 /*Fin Footer
